@@ -34,8 +34,4 @@ public class Resume {
 		Resume other = (Resume) obj;
 		return Objects.equals(uuid, other.uuid);
 	}
-
-
-
-	
 }
