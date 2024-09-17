@@ -6,7 +6,7 @@ import com.mch.webapp.model.Resume;
  * Test for your ArrayStorage implementation
  */
 public class MainTestArrayStorage {
-	static final ArrayStorage ARRAY_STORAGE = new ArrayStorage();
+	private final static ArrayStorage ARRAY_STORAGE = new ArrayStorage();
 
 	public static void main(String[] args) {
 		Resume r1 = new Resume();
