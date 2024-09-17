@@ -32,7 +32,7 @@ public class ArrayStorage {
 		if (getIndex(uuid) != -1) {
 			System.out.println("Resume " + uuid + " alreday exists");
 		} else if (size == storage.length) {
-			System.out.println("Sorage overflow");
+			System.out.println("Storage overflow");
 		} else {
 			storage[size] = r;
 			size++;
